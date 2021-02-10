@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1> HTML Form</h1>
+    </header>
+    <nav>
+        <a href="index.html">Back</a>
+    </nav>
+    <section>
+        <h1>Client Data</h1>
+        <form method="POST" action="https://formspree.io/f/mzbrpnea">
+            <label>Name:
+            <input placeholder="Jonh" required name="name">
+            </label><br>
+            <label>Email:
+            <input placeholder="Jonh@gamil.com" required name="email">
+            </label><br>
+            <label>Male
+                <input type="radio" required name="genera" value="male">
+            </label>
+            <label>Female
+                <input type="radio" required name="genera" value="female">
+            </label>
+            <label>Other
+                <input type="radio" required name="genera" value="other">
+            </label>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </section>
+</body>
+</html>
